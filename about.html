@@ -59,11 +59,11 @@
       >
         <div class="col-lg-6 px-5 text-start">
           <small
-            ><i class="fa fa-map-marker-alt me-2"></i>123 Street, New York,
-            USA</small
+            ><i class="fa fa-map-marker-alt me-2"></i>LB Nagar, Hyderabad,
+            Telangana</small
           >
           <small class="ms-4"
-            ><i class="fa fa-envelope me-2"></i>info@example.com</small
+            ><i class="fa fa-envelope me-2"></i>udayreddy66gmail.com</small
           >
         </div>
         <div class="col-lg-6 px-5 text-end">
@@ -102,22 +102,6 @@
           <div class="navbar-nav ms-auto p-4 p-lg-0">
             <a href="index.html" class="nav-item nav-link">Home</a>
             <a href="about.html" class="nav-item nav-link active">About</a>
-            <a href="causes.html" class="nav-item nav-link">Causes</a>
-            <div class="nav-item dropdown">
-              <a
-                href="#"
-                class="nav-link dropdown-toggle"
-                data-bs-toggle="dropdown"
-                >Pages</a
-              >
-              <div class="dropdown-menu m-0">
-                <a href="service.html" class="dropdown-item">Service</a>
-                <a href="donate.html" class="dropdown-item">Donate</a>
-                <a href="team.html" class="dropdown-item">Our Team</a>
-                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                <a href="404.html" class="dropdown-item">404 Page</a>
-              </div>
-            </div>
             <a href="contact.html" class="nav-item nav-link">Contact</a>
           </div>
           <div class="d-none d-lg-flex ms-2">
@@ -145,10 +129,7 @@
         <nav aria-label="breadcrumb animated slideInDown">
           <ol class="breadcrumb justify-content-center mb-0">
             <li class="breadcrumb-item">
-              <a class="text-white" href="#">Home</a>
-            </li>
-            <li class="breadcrumb-item">
-              <a class="text-white" href="#">Pages</a>
+              <a class="text-white" href="index.html">Home</a>
             </li>
             <li class="breadcrumb-item text-primary active" aria-current="page">
               About Us
@@ -293,57 +274,64 @@
         </div>
         <div class="row g-4 justify-content-center">
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
-              <img class="img-fluid mb-4" src="img/icon-1.png" alt="" />
-              <h4 class="mb-3">Child Education</h4>
-              <p class="mb-4">
-                Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum
-                diam justo sed vero dolor duo.
-              </p>
-              <a class="btn btn-outline-primary px-3" href="">
-                Learn More
-                <div
-                  class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2"
-                >
-                  <i class="fa fa-arrow-right"></i>
-                </div>
-              </a>
+            <div class="service-item bg-white h-100 p-4 p-xl-5">
+              <div class="text-center">
+                <img class="img-fluid mb-4" src="img/health.png" alt="" width="85px"/>
+                <h4 class="mb-3">Health</h4>
+              </div>
+              <ol class="mb-4">
+                <li class="py-1">Health Compagins</li>
+                <li class="py-1">Emergency Health Support</li>
+                <li class="py-1">Pregnancy Care Support for OC Women</li>
+                <li class="py-1">Oldage Health Care Support</li>
+              </ol>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-            <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
-              <img class="img-fluid mb-4" src="img/icon-2.png" alt="" />
-              <h4 class="mb-3">Medical Treatment</h4>
-              <p class="mb-4">
-                Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum
-                diam justo sed vero dolor duo.
-              </p>
-              <a class="btn btn-outline-primary px-3" href="">
-                Learn More
-                <div
-                  class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2"
-                >
-                  <i class="fa fa-arrow-right"></i>
+            <div class="service-item bg-white h-100 p-4 p-xl-5">
+              <div class="text-center">
+                <img class="img-fluid mb-4" src="img/education.png" alt="" width="85px"/>
+                <h4 class="mb-3">Education</h4>
+              </div>
+              <ol class="mb-4">
+                <li class="py-1">Scholorship to Poor OC(LKG to Masters)</li>
+                <li class="py-1">Books Distribution</li>
+                <li class="py-1">Skill Devolopment Center</li>
+                <li class="py-1">Coaching Center</li>
+                <div id="hidden-items" class="d-none">
+                  <li class="py-1">Overseas Educational Support</li>
+                  <ol type="a">
+                    <li class="py-1">Coaching Center</li>
+                    <li class="py-1">Scholorship Support</li>
+                  </ol>
+                  <li class="py-1">Special Talent Support</li>
+                  <ol type="a">
+                    <li class="py-1">Sports</li>
+                    <li class="py-1">Artistics</li>
+                    <li class="py-1">Skilll Based Talent</li>
+                  </ol>
                 </div>
-              </a>
+              </ol>
+              <div class="text-center">
+                <button id="read-more-btn" class="btn btn-outline-primary px-3" onclick="toggleItems()"">
+                  Read More
+                </button>
+              </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-            <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
-              <img class="img-fluid mb-4" src="img/icon-3.png" alt="" />
-              <h4 class="mb-3">Pure Drinking Water</h4>
-              <p class="mb-4">
-                Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum
-                diam justo sed vero dolor duo.
-              </p>
-              <a class="btn btn-outline-primary px-3" href="">
-                Learn More
-                <div
-                  class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2"
-                >
-                  <i class="fa fa-arrow-right"></i>
-                </div>
-              </a>
+            <div class="service-item bg-white h-100 p-4 p-xl-5">
+              <div class="text-center">
+                <img class="img-fluid mb-4" src="img/poor.png" alt="" width="85px"/>
+                <h4 class="mb-3">Poor Living Standard</h4>
+              </div>
+
+              <ol class="mb-4">
+                <li class="py-1">Finacial Support Upto 1 Lakh</li>
+                <li class="py-1">Small/Street Business Support</li>
+                <li class="py-1">Continue Homes For Shelterless OC</li>
+              </ol>
+
             </div>
           </div>
         </div>
@@ -468,8 +456,11 @@
       <div class="container py-5">
         <div class="row g-5">
           <div class="col-lg-3 col-md-6">
-            <h1 class="fw-bold text-primary mb-4">AIOCS</h1>
+            <h1 class="fw-bold text-white">
+              AIOCS<span class="text-white"></span>
+            </h1>
             <p>All India OC Sangam</p>
+
             <div class="d-flex pt-2">
               <a class="btn btn-square me-1" href=""
                 ><i class="fab fa-twitter"></i
@@ -488,35 +479,29 @@
           <div class="col-lg-3 col-md-6">
             <h5 class="text-light mb-4">Address</h5>
             <p>
-              <i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA
+              <i class="fa fa-map-marker-alt me-3"></i>Plot No. 3-9-101/16, Road
+              No. 19, Central Bank Colony, LB Nagar, Hyderabad, Telangana 500074
             </p>
-            <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-            <p><i class="fa fa-envelope me-3"></i>info@example.com</p>
+            <p><i class="fa fa-phone-alt me-3"></i>+91 9010495143</p>
+            <p><i class="fa fa-envelope me-3"></i>udayreddy66@gmail.com</p>
           </div>
           <div class="col-lg-3 col-md-6">
             <h5 class="text-light mb-4">Quick Links</h5>
-            <a class="btn btn-link" href="">About Us</a>
-            <a class="btn btn-link" href="">Contact Us</a>
-            <a class="btn btn-link" href="">Our Services</a>
-            <a class="btn btn-link" href="">Terms & Condition</a>
-            <a class="btn btn-link" href="">Support</a>
+            <a class="btn btn-link fs-5" href="index.html">Home</a>
+            <a class="btn btn-link fs-5" href="about.html">About</a>
+            <a class="btn btn-link fs-5" href="contact.html">Contact</a>
+
+            <!-- <a class="btn btn-link" href="">Terms & Condition</a> -->
+            <!-- <a class="btn btn-link" href="">Support</a> -->
           </div>
           <div class="col-lg-3 col-md-6">
-            <h5 class="text-light mb-4">Newsletter</h5>
-            <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-            <div class="position-relative mx-auto" style="max-width: 400px">
-              <input
-                class="form-control bg-transparent w-100 py-3 ps-4 pe-5"
-                type="text"
-                placeholder="Your email"
-              />
-              <button
-                type="button"
-                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
-              >
-                SignUp
-              </button>
-            </div>
+            <p class="text-light">Let's Fight For Our Identity as Indian</p>
+            <img
+            src="img/updated_aiocs_logo.jpeg"
+            alt="AIOCS Logo"
+            srcset=""
+            height="200px"
+          />
           </div>
         </div>
       </div>
@@ -524,11 +509,11 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-              &copy; <a href="#">Your Site Name</a>, All Right Reserved.
+              &copy; <a href="#">AIOCS</a>, All Right Reserved.
             </div>
             <div class="col-md-6 text-center text-md-end">
               <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-              Designed By <a href="https://htmlcodex.com">HTML Codex</a>
+              Designed By <a href="https://techprane.com">TECHPRANEE</a>
             </div>
           </div>
         </div>
@@ -552,5 +537,19 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script>
+      function toggleItems() {
+        var items = document.getElementById("hidden-items");
+        var btn = document.getElementById("read-more-btn");
+        
+        items.classList.toggle("d-none");
+        
+        if (items.classList.contains("d-none")) {
+          btn.innerHTML = "Read More";
+        } else {
+          btn.innerHTML = "Read Less";
+        }
+      }
+    </script>
   </body>
 </html>
