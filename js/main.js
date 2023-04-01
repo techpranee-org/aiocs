@@ -27,7 +27,7 @@ z-index: 1000;
 ">
 <img src="https://i.ibb.co/VgSspjY/whatsapp-button.png" alt="whatsapp"/>
 </a>
-<a href="https://youtube.com" target="_blank" style="
+<a href="https://youtube.com/@AIOCSAllIndiaOCSangam" target="_blank" style="
 position: fixed;
 right: 15px;
 bottom: 280px;
@@ -40,7 +40,7 @@ z-index: 1000;
 ">
 <img src="/img/Youtube.png" alt="youtube" width="60px"/>
 </a>
-<a href="https://facebook.com" target="_blank" style="
+<a href="https://www.facebook.com/profile.php?id=100090060027465&mibextid=ZbWKwL" target="_blank" style="
 position: fixed;
 right: 15px;
 bottom: 210px;
