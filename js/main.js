@@ -15,6 +15,41 @@
     // Initiate the wowjs
     new WOW().init();
 
+    document.getElementById("floating-links").innerHTML = `
+    <a href="https://api.whatsapp.com/send?phone=919010495143&text=Hi%2C%20I%20am%20interested" class="whatsapp-button" target="_blank" style="
+position: fixed;
+right: 15px;
+bottom: 140px;
+color: #fff;
+background-color: #25d366;
+border-radius: 15px;
+z-index: 1000;
+">
+<img src="https://i.ibb.co/VgSspjY/whatsapp-button.png" alt="whatsapp"/>
+</a>
+<a href="https://youtube.com" target="_blank" style="
+position: fixed;
+right: 15px;
+bottom: 280px;
+color: #fff;
+
+background-color: #BDBDBD;
+border-radius: 15px;
+padding: 5px 0px;
+z-index: 1000;
+">
+<img src="/img/Youtube.png" alt="youtube" width="60px"/>
+</a>
+<a href="https://facebook.com" target="_blank" style="
+position: fixed;
+right: 15px;
+bottom: 210px;
+color: #fff;
+border-radius: 15px;
+z-index: 1000;
+">
+<img src="/img/messenger.png" alt="messenger" width="60px"/>
+</a>`;
 
     // Fixed Navbar
     $(window).scroll(function () {
